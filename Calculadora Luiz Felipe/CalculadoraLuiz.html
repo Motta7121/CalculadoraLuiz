@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="designCalc.css">
+ 
+</head>
+<body>
+    <div class='principal'>
+<div class='filho'>
+ <h1>Calculadora FUNEC</h1>
+ <div id='visor'>0.00</div>
+
+ <input class="grid-item" type="button" onkeydown="mostrarNum(event)" id="sete" value="7">
+ <input class="grid-item" type="button" onkeydown="mostrarNum(event)" id="oito" value="8">
+ <input class="grid-item" type="button" onkeydown="mostrarNum(event)" id="nove" value="9">
+ <input class="grid-item" type="button" onkeydown="mostrarNum(event)" id="soma" value="+">
+ <input class="grid-item" type="button" onkeydown="mostrarNum(event)" id="quatro"value="4">
+ <input class="grid-item" type="button" onkeydown="mostrarNum(event)" id="cinco" value="5">
+ <input class="grid-item" type="button" onkeydown="mostrarNum(event)" id="seis" value="6">
+ <input class="grid-item" type="button" onkeydown="mostrarNum(event)" id="sub" value="-">
+ <input class="grid-item" type="button" onkeydown="mostrarNum(event)" id="um" value="1">
+ <input class="grid-item" type="button" onkeydown="mostrarNum(event)" id="dois" value="2">
+ <input class="grid-item" type="button" onkeydown="mostrarNum(event)" id="tres" value="3">
+ <input class="grid-item"type="button" onkeydown="mostrarNum(event)" id="mult" value="*">
+ <input class="grid-item" type="button" onkeydown="mostrarNum(event)" id="limpa"  value="C">
+ <input class="grid-item"type="button" onkeydown="mostrarNum(event)" id="zero" value="0">
+ <input class="grid-item" type="button" onkeydown="mostrarNum(event)" id="igual" value="=">
+ <input class="grid-item" type="button" onkeydown="mostrarNum(event)"id="div" value="/">
+        </div>
+    
+
+
+
+
+    </div>
+    <script src="codigoCalc.js"> </script> 
+</body>
+</html>
